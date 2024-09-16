@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Analog Clock -->
+      <div class="clock">
+        <div class="hour">
+          <div class="hr" id="hr"></div>
+        </div>
+        <div class="min">
+          <div class="mn" id="mn"></div>
+        </div>
+        <div class="sec">
+          <div class="sc" id="sc"></div>
+        </div>
+        
+      </div>
+
+      <!-- Digital Clock Display -->
+      <h1 id="digitalTime">00:00:00 PM</h1>
+
+      <!-- Alarm Set Inputs -->
+      <div class="content">
+        <div class="column">
+          <label for="hourSelect" class="visually-hidden"></label>
+          <select id="hourSelect">
+            <option value="" selected disabled hidden>Hour</option>
+          </select>
+        </div>
+        <div class="column">
+          <label for="minuteSelect" class="visually-hidden"></label>
+          <select id="minuteSelect">
+            <option value="" selected disabled hidden>Minute</option>
+          </select>
+        </div>
+        <div class="column">
+          <label for="ampmSelect" class="visually-hidden"></label>
+          <select id="ampmSelect">
+            <option value="" selected disabled hidden>AM/PM</option>
+          </select>
+        </div>
+        <div class="column">
+          <label for="ringtoneSelect" class="visually-hidden"></label>
+          <select id="ringtoneSelect">
+            <option value="" selected disabled hidden>Select Ringtone</option>
+            <option value="default">Normal Alarm</option>
+            <option value="ringtone1">Kolla Kalle Illa</option>
+            <option value="ringtone2">Roja</option>
+            <option value="ringtone3">Normal Alarm</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="setAlarmBtn">Set Alarm</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
