@@ -3,7 +3,7 @@ This app was created using website-to-app converters.
 
 ## Steps to Create the App
 
-1. **Develop the Snake Game Website**: 
+1. **Develop a Alarm Clock Website**: 
    - Built using HTML, CSS, and JavaScript.
 
 2. **Save and Zip the Files**:
